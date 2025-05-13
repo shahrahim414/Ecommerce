@@ -22,7 +22,7 @@ class _WellcomeScreenState extends State<WellcomeScreen> {
             'WellCome to app  ',
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: AppConstant.Red,
+              color: AppConstant.red,
             ),
           ),
         ),
@@ -38,7 +38,7 @@ class _WellcomeScreenState extends State<WellcomeScreen> {
           Container(margin: EdgeInsets.only(top: 20),
             child: Text('Happy Shopping'),),
           SizedBox(height: Get.height/12,),
-          Container(decoration: BoxDecoration(color: AppConstant.Red,borderRadius: BorderRadius.circular(20),),
+          Container(decoration: BoxDecoration(color: AppConstant.red,borderRadius: BorderRadius.circular(20),),
 
             width: Get.width/1.2,
             height: Get.height/12,
@@ -46,7 +46,7 @@ class _WellcomeScreenState extends State<WellcomeScreen> {
             icon:Image.asset('assets/image/img.png')),
           ),
           SizedBox(height: Get.height/12,),
-          Container(decoration: BoxDecoration(color: AppConstant.Red,borderRadius: BorderRadius.circular(20),),
+          Container(decoration: BoxDecoration(color: AppConstant.red,borderRadius: BorderRadius.circular(20),),
 
             width: Get.width/1.2,
             height: Get.height/12,
